@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import paginas.*;
 import suporte.Web;
 
-public class A02HomolmeumedicoDeleteTest {
+public class A02HomolCettroDeleteTest {
     private WebDriver navegador;
 
     @Before

@@ -42,8 +42,8 @@ public class PageBase {
     }
 
     public PageBase makeLogin() {
-        type("//input[@id='matriculaSms']", "00888888888");
-        type("//input[@id='senha']", "3322");
+        type("//input[@id='matricula']", "00000000000");
+        type("//input[@id='senha']", "123456");
         clickButton("//button[@ng-click='login()']");
         return new PageBase(navegador);
     }

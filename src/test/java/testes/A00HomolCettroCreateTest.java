@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import paginas.*;
 import suporte.Web;
 
-public class A00HomolMeuMedicoCreateTest {
+public class A00HomolCettroCreateTest {
     private WebDriver navegador;
 
     @Before
@@ -77,7 +77,7 @@ public class A00HomolMeuMedicoCreateTest {
     @Test //sem loop
     public void notificationCreate() throws InterruptedException {
               new Notifications(navegador)
-                    .newNotification().writeEverything("Automação Topos Informática", "01012021", "0001'").addUser();
+                    .newNotification().writeEverything("Dashboard", "09092020", "1200'").addUser();
     }
 
     @Test
